@@ -1,0 +1,109 @@
+body{margin: 0;}
+
+.navbar{width: 100%;
+	height:60px;
+	background:black;
+  margin-top: 10px;
+}
+
+.dropdown{width: 120px;
+          height: 60px;
+          text-align: center;
+          line-height: 60px;
+          background-color: #8470ff;
+          margin-left: 20px;
+         }
+
+.zhichi{width: 120px;
+          height: 60px;
+          text-align: center;
+          line-height: 60px;
+          background-color: #8470ff;
+          float:right;
+          margin-right:400px;}
+
+
+.lianxi{width: 120px;
+          height: 60px;
+          text-align: center;
+          line-height: 60px;
+          background-color: #8470ff;
+          float:right;
+          margin-right:200px;
+          }      
+
+.content{display: none;
+         background-color:#8470ff;
+        }
+
+
+
+.dropdown:hover .content{
+	display: block;
+}
+
+
+.zhichi:hover{background-color: #6a5acd;
+              color: white;}
+
+.lianxi:hover{background-color: #6a5acd;
+              color: white;}
+
+.hidden{display: block;
+	    transition: 1s;
+        }
+
+.hidden:hover{color: white;
+              background-color: #6a5acd;}
+
+a{text-decoration: none;
+  color: black;
+  }
+
+
+
+.sidebar{margin-right: 0px;
+	     width: 45px;
+	     margin-top: 200px;
+         height: 300px;
+         background:#8470ff;
+         border: 1px;
+         padding-left: 10px;
+         text-align: center;
+         float: left;
+         overflow: hidden;
+         list-style: none;
+
+     }
+
+.side{height:60px; 
+      color: black;
+      width: 200px;
+      overflow:hidden;
+      }
+
+.side:hover{background-color: #bebebe;
+      color: white;
+      transition: 1s;}
+           
+
+
+.sidebar:hover{margin-right: 0px;
+	        width: 200px;
+          height: 300px;
+	        color: white;
+          background-color:#6495ed;
+          transition: 0.5s;
+          display: block
+
+            }
+.navbar input[type=text]{
+         margin-right:50px;
+         float: right;
+           border: none;
+           width: 300px;
+           height:40px;
+           margin-top: 10px;
+          }
+
+li{height: 70px;}
